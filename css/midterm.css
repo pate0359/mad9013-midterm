@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding:0;
+	margin:0;
+}	
+body{
+	font-size: 62.5%;	
+	background-color: #666;
+}
+h1, h2, h3{
+	font-weight: 700;	
+	padding: 10px 20px;
+	color: #000;
+}
+h1{
+	font-size: 3.6rem;	
+	font-family: 'Redressed', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+}
+h2{
+	font-size: 3.0rem;	
+	font-family: 'Tangerine', serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+h3{
+	font-size: 2.4rem;
+	font-family: 'Tangerine', serif;
+	text-shadow: 4px 4px 4px #aaa;
+	color: #494949;	
+}
+p, li, a{
+	font-weight: 400;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #555;		
+}
+p{
+	padding: 10px 20px;
+	font-size: 1.4rem;
+}
+li{
+	font-size: 1.4rem;
+}
+ol li{
+	padding: 6px 20px;
+	margin-left: 20px;
+	list-style-position:inside;
+}
+a{
+	font-size: 1.4rem;
+}	
+
+/***********************************
+					Layout
+***********************************/
+.wrapper{
+/*	background-color: #fff;*/
+}
+.masthead{
+	
+}
+.nav{
+	
+}
+.navbar{
+	
+}
+.main{
+	
+}
+.sidebar{
+	
+}
+.footer{
+	
+}
+/***********************************
+					Masthead
+***********************************/
+.masthead h1{
+	padding: 30px 20px;
+}
+
+/***********************************
+					Navigation
+***********************************/
+
+.navbar li{
+	float:left;	
+	width: 240px;  /* 960/4 = 240  works if the layout is 960*/
+	list-style:none;
+	text-shadow: 4px 4px 4px #aaa;
+}
+.navbar a{
+	display: block;	
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	text-shadow: 4px 4px 4px #aaa; /* #B0B0B0  ;
+/*	background-color: #e4e4e4;*/
+}
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus{
+	color: #fff;
+	background-color: #333;
+	text-shadow: 1px 1px 1px #aaa;
+}
+
+/***********************************
+					Content
+***********************************/
+.sidebar p{
+	font-size: 1.4rem;	
+}
+.instructions{
+	color: #C30;	
+}
+/***********************************
+					Footer
+***********************************/
+.footer p{
+	padding: 20px 20px;
+	font-size: 1.2rem;
+	color: #999;	
+/*	background-color: #e4e4e4;*/
+}
+
+
+@media screen and (min-width: 1080px) {
+	
+	.nav{
+	float:left;	
+	margin-left: 2%;
+	width: 10%;
+	list-style:none;
+	background-color: #ccc;
+ 	}
+	
+	.navbar li{
+	float:left;	
+	width: 100%;   /* 960/4 = 240  works if the layout is 960*/
+	list-style:none;
+	
+	}
+	
+	.navbar a{
+		text-align: left;
+	}
+	
+	.wrapper{
+/*	background-color: #fff;*/
+	}
+	.masthead{
+	
+		margin-bottom: 2%;
+		background-color: #e4e4e4;
+		text-align: center;
+	}
+	.main
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 40%;
+		background-color: #ccc;
+	}
+	
+	.two
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 20%;
+		background-color: #ccc;
+	}
+	
+	.three
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 20%;
+		margin-right: 2%;
+		background-color: #ccc;
+	}
+	
+	.footer{
+		padding: 20px 20px;
+		font-size: 1.2rem;
+		width: 100%;
+		height: 5%;
+		float: left;
+		margin-top: 2%;
+		color: #999;	
+		background-color: black;
+		position: inherit; 
+		bottom: 0
+	}
+}
+
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+	
+	.nav{
+	float:left;	
+	margin-left: 0%;
+	width: 100%;
+	list-style:none;
+	margin-bottom: 2%;
+	background-color: #ccc;
+ 	}
+	
+	.navbar li{
+	float:left;	
+	width: 20%;   /* 960/4 = 240  works if the layout is 960*/
+	list-style:none;
+		background-color: transparent;
+	
+	}
+	.navbar a{
+		text-align: center;
+	}
+	
+	.wrapper{
+/*	background-color: #fff;*/
+	}
+	.masthead{
+		margin-bottom: 0%;
+		background-color: #e4e4e4;
+		text-align: center;
+	}
+	.main
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 52%;
+		background-color: #ccc;
+	}
+	
+	.two
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 20%;
+		background-color: #ccc;
+	}
+	
+	.three
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 20%;
+		margin-right: 2%;
+		background-color: #ccc;
+	}
+	
+	.footer{
+		padding: 20px 20px;
+		font-size: 1.2rem;
+		width: 100%;
+		height: 5%;
+		float: left;
+		margin-top: 2%;
+		color: #999;	
+		background-color: black;
+		position: inherit; 
+		bottom: 0
+	}
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 719px) {
+
+	.nav{
+	float:left;	
+	margin-left: 0%;
+	width: 100%;
+	list-style:none;
+	margin-bottom: 2%;
+	background-color: #ccc;
+ 	}
+	
+	.navbar li{
+	float:left;	
+	width: 20%;   /* 960/4 = 240  works if the layout is 960*/
+	list-style:none;
+		background-color: transparent;
+	
+	}
+	.navbar a{
+		text-align: center;
+	}
+	
+	.wrapper{
+/*	background-color: #fff;*/
+	}
+	.masthead{
+		margin-bottom: 0%;
+		background-color: #e4e4e4;
+		text-align: center;
+	}
+	.main
+	{
+		float:left;	
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 2%;
+		width: 96%;
+		background-color: #ccc;
+	}
+	
+	.two
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 47%;
+		background-color: #ccc;
+	}
+	
+	.three
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 47%;
+		margin-right: 2%;
+		background-color: #ccc;
+	}
+	
+	.footer{
+		padding: 20px 20px;
+		font-size: 1.2rem;
+		width: 100%;
+		height: 5%;
+		float: left;
+		margin-top: 2%;
+		color: #999;	
+		background-color: black;
+		position: inherit; 
+		bottom: 0
+	}
+}
+
+@media screen and (max-width: 499px) {
+
+	.nav{
+	float:left;	
+	margin-left: 0%;
+	width: 100%;
+	list-style:none;
+	margin-bottom: 2%;
+	background-color: #ccc;
+ 	}
+	
+	.navbar li{
+	float:left;	
+	width: 25%;   /* 960/4 = 240  works if the layout is 960*/
+	list-style:none;
+		background-color: transparent;
+	
+	}
+	.navbar a{
+		text-align: center;
+		font-size: 1.2rem;
+	}
+	
+	.wrapper{
+/*	background-color: #fff;*/
+	}
+	.masthead{
+		margin-bottom: 0%;
+		background-color: #e4e4e4;
+		text-align: center;
+	}
+	.main
+	{
+		float:left;	
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 2%;
+		width: 96%;
+		background-color: #ccc;
+	}
+	
+	.two
+	{
+		float:left;	
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 2%;
+		width: 96%;
+		background-color: #ccc;
+	}
+	
+	.three
+	{
+		float:left;	
+		margin-left: 2%;
+		width: 96%;
+		margin-right: 2%;
+		background-color: #ccc;
+	}
+	
+	.footer{
+		padding: 20px 20px;
+		font-size: 1.2rem;
+		width: 100%;
+		height: 5%;
+		float: left;
+		margin-top: 2%;
+		color: #999;	
+		background-color: black;
+		position: inherit; 
+		bottom: 0
+	}
+}
