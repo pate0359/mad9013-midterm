@@ -330,7 +330,7 @@ a{
 	
 	.navbar li{
 	float:left;	
-	width: 25%;   /* 960/4 = 240  works if the layout is 960*/
+	width: 50%;   /* 960/4 = 240  works if the layout is 960*/
 	list-style:none;
 	
 	}
