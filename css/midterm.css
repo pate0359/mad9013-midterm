@@ -1,40 +1,40 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 *{
 	padding:0;
 	margin:0;
 }	
 body{
 	font-size: 62.5%;	
-	background-color: #666;
+	background-color: #272E30;
 }
 h1, h2, h3{
 	font-weight: 700;	
 	padding: 10px 20px;
-	color: #000;
+	color: #1B2021;
 }
 h1{
 	font-size: 3.6rem;	
 	font-family: 'Redressed', cursive;
-	text-shadow: 4px 4px 4px #aaa;
+	text-shadow: 4px 4px 4px #272E30;
 }
 h2{
 	font-size: 3.0rem;	
 	font-family: 'Tangerine', serif;
-	text-shadow: 4px 4px 4px #aaa;
+	text-shadow: 4px 4px 4px #272E30;
+	color: #1B2021;
 }
 h3{
 	font-size: 2.4rem;
 	font-family: 'Tangerine', serif;
-	text-shadow: 4px 4px 4px #aaa;
-	color: #494949;	
+	text-shadow: 4px 4px 4px #272E30;
+	color: #1B2021;	
 }
 p, li, a{
 	font-weight: 400;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #555;		
+	color: #1B272B;		
 }
 p{
 	padding: 10px 20px;
@@ -56,13 +56,18 @@ a{
 					Layout
 ***********************************/
 .wrapper{
-/*	background-color: #fff;*/
 }
 .masthead{
-	
+	background-color: #4B6B79 ;
+}
+.main,
+.two,
+.three
+{
+	background-color: #8CA5AD;
 }
 .nav{
-	
+	background-color: #8CA5AD;
 }
 .navbar{
 	
@@ -91,25 +96,23 @@ a{
 	float:left;	
 	width: 240px;  /* 960/4 = 240  works if the layout is 960*/
 	list-style:none;
-	text-shadow: 4px 4px 4px #aaa;
 }
 .navbar a{
 	display: block;	
 	padding: 8px 8px;
 	text-align: center;
 	text-decoration: none;
-	color: #333;
-	font-weight: bold;
-	text-shadow: 4px 4px 4px #aaa; /* #B0B0B0  ;
-/*	background-color: #e4e4e4;*/
+	color: #1B2021;
+	font-weight: 7;
+	text-shadow: 4px 4px 4px #272E30; /* #B0B0B0 */  ;
 }
 .navbar a:visited,
 .navbar a:hover,
 .navbar a:active,
 .navbar a:focus{
-	color: #fff;
-	background-color: #333;
-	text-shadow: 1px 1px 1px #aaa;
+	color: #272E30 ;
+	background-color: #BADBE5;
+	text-shadow: 1px 1px 1px #272E30;
 }
 
 /***********************************
@@ -127,8 +130,8 @@ a{
 .footer p{
 	padding: 20px 20px;
 	font-size: 1.2rem;
-	color: #999;	
-/*	background-color: #e4e4e4;*/
+	color: #1B272B;;	
+	background-color: #4B6B79;
 }
 
 
@@ -139,7 +142,7 @@ a{
 	margin-left: 2%;
 	width: 10%;
 	list-style:none;
-	background-color: #ccc;
+	
  	}
 	
 	.navbar li{
@@ -154,12 +157,10 @@ a{
 	}
 	
 	.wrapper{
-/*	background-color: #fff;*/
 	}
 	.masthead{
 	
 		margin-bottom: 2%;
-		background-color: #e4e4e4;
 		text-align: center;
 	}
 	.main
@@ -167,7 +168,6 @@ a{
 		float:left;	
 		margin-left: 2%;
 		width: 40%;
-		background-color: #ccc;
 	}
 	
 	.two
@@ -175,7 +175,6 @@ a{
 		float:left;	
 		margin-left: 2%;
 		width: 20%;
-		background-color: #ccc;
 	}
 	
 	.three
@@ -184,18 +183,14 @@ a{
 		margin-left: 2%;
 		width: 20%;
 		margin-right: 2%;
-		background-color: #ccc;
 	}
 	
 	.footer{
-		padding: 20px 20px;
 		font-size: 1.2rem;
 		width: 100%;
 		height: 5%;
 		float: left;
 		margin-top: 2%;
-		color: #999;	
-		background-color: black;
 		position: inherit; 
 		bottom: 0
 	}
@@ -209,14 +204,12 @@ a{
 	width: 100%;
 	list-style:none;
 	margin-bottom: 2%;
-	background-color: #ccc;
  	}
 	
 	.navbar li{
 	float:left;	
 	width: 20%;   /* 960/4 = 240  works if the layout is 960*/
 	list-style:none;
-		background-color: transparent;
 	
 	}
 	.navbar a{
@@ -224,11 +217,9 @@ a{
 	}
 	
 	.wrapper{
-/*	background-color: #fff;*/
 	}
 	.masthead{
 		margin-bottom: 0%;
-		background-color: #e4e4e4;
 		text-align: center;
 	}
 	.main
@@ -236,7 +227,6 @@ a{
 		float:left;	
 		margin-left: 2%;
 		width: 52%;
-		background-color: #ccc;
 	}
 	
 	.two
@@ -244,7 +234,6 @@ a{
 		float:left;	
 		margin-left: 2%;
 		width: 20%;
-		background-color: #ccc;
 	}
 	
 	.three
@@ -253,18 +242,14 @@ a{
 		margin-left: 2%;
 		width: 20%;
 		margin-right: 2%;
-		background-color: #ccc;
 	}
 	
 	.footer{
-		padding: 20px 20px;
 		font-size: 1.2rem;
 		width: 100%;
 		height: 5%;
 		float: left;
 		margin-top: 2%;
-		color: #999;	
-		background-color: black;
 		position: inherit; 
 		bottom: 0
 	}
@@ -279,7 +264,6 @@ a{
 	width: 100%;
 	list-style:none;
 	margin-bottom: 2%;
-	background-color: #ccc;
  	}
 	
 	.navbar li{
@@ -294,11 +278,9 @@ a{
 	}
 	
 	.wrapper{
-/*	background-color: #fff;*/
 	}
 	.masthead{
 		margin-bottom: 0%;
-		background-color: #e4e4e4;
 		text-align: center;
 	}
 	.main
@@ -308,7 +290,6 @@ a{
 		margin-right: 2%;
 		margin-bottom: 2%;
 		width: 96%;
-		background-color: #ccc;
 	}
 	
 	.two
@@ -316,7 +297,6 @@ a{
 		float:left;	
 		margin-left: 2%;
 		width: 47%;
-		background-color: #ccc;
 	}
 	
 	.three
@@ -325,18 +305,14 @@ a{
 		margin-left: 2%;
 		width: 47%;
 		margin-right: 2%;
-		background-color: #ccc;
 	}
 	
 	.footer{
-		padding: 20px 20px;
 		font-size: 1.2rem;
 		width: 100%;
 		height: 5%;
 		float: left;
 		margin-top: 2%;
-		color: #999;	
-		background-color: black;
 		position: inherit; 
 		bottom: 0
 	}
@@ -350,14 +326,12 @@ a{
 	width: 100%;
 	list-style:none;
 	margin-bottom: 2%;
-	background-color: #ccc;
  	}
 	
 	.navbar li{
 	float:left;	
 	width: 25%;   /* 960/4 = 240  works if the layout is 960*/
 	list-style:none;
-		background-color: transparent;
 	
 	}
 	.navbar a{
@@ -366,11 +340,9 @@ a{
 	}
 	
 	.wrapper{
-/*	background-color: #fff;*/
 	}
 	.masthead{
 		margin-bottom: 0%;
-		background-color: #e4e4e4;
 		text-align: center;
 	}
 	.main
@@ -380,7 +352,6 @@ a{
 		margin-right: 2%;
 		margin-bottom: 2%;
 		width: 96%;
-		background-color: #ccc;
 	}
 	
 	.two
@@ -390,7 +361,6 @@ a{
 		margin-right: 2%;
 		margin-bottom: 2%;
 		width: 96%;
-		background-color: #ccc;
 	}
 	
 	.three
@@ -399,18 +369,14 @@ a{
 		margin-left: 2%;
 		width: 96%;
 		margin-right: 2%;
-		background-color: #ccc;
 	}
 	
 	.footer{
-		padding: 20px 20px;
 		font-size: 1.2rem;
 		width: 100%;
 		height: 5%;
 		float: left;
 		margin-top: 2%;
-		color: #999;	
-		background-color: black;
 		position: inherit; 
 		bottom: 0
 	}
